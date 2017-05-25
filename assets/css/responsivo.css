@@ -1,0 +1,53 @@
+@media screen and (max-width: 875px){
+	#produtos{
+		width: 100%;
+		height: 100%;
+		border-radius: 0;
+		margin-bottom:20px;
+	}
+
+	#produtos .titulo h2{
+	 
+	  text-align: center;
+	}
+
+	#produtos .visualizados{
+	  width: 100%;
+	  text-align: center;
+	  position: relative;
+	}
+	#produtos .divisor{
+	  border: 0;
+	}
+	
+	#produtos .interesse{
+		display: block;
+		width: 100%;
+		height: 270px;
+	}
+
+	#produtos .conteudo{
+	  width: 100%;
+	  height: 634px;
+	  left:0px;
+	  position: absolute;
+	  text-align: center;
+	  overflow: hidden;
+	}
+	#produtos .bloco{
+	  width: 240px;
+	  margin: 10px auto 10px auto;	
+	  height: 240px;
+	  text-align: center;
+	  display: inline-block;
+	  left: 0;
+	 
+	}
+
+}
+
+@media screen and (max-width: 675px){
+	#produtos .bloco{
+		display: inline-block;
+	}
+}
